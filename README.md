@@ -1,10 +1,10 @@
 Get started
 ===========
 
-Environment Choosing
+Choice of environment
 -----------------------
 
-[Stable baselines](https://readthedocs.org/projects/stable-baselines/downloads/pdf/master/) is recommended as a improvement of OpenAI.
+[Stable baselines](https://readthedocs.org/projects/stable-baselines/downloads/pdf/master/) is recommended as a improvement of OpenAI-baselines.
 
 
 Setup
