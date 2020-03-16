@@ -15,10 +15,21 @@ Setup
 - Note: Baselines requires python3 (>=3.5)
 
 ### Preparation of Virtual Environment and Python3
-Please refer the clear [guide](https://docs.python-guide.org/starting/installation/).
+Please refer the complete [guide](https://docs.python-guide.org/starting/installation/).
 
-Activate your virtual environment. And run:
-`brew install python`
+Example using virtualenv and default interpreter python2.7
+--
+
+`brew install python3`
+
+Create a virtual environmet named python3 under `{your_folder}/virtualenv`
+
+`virtualenv -p /usr/local/bin/python3 python3`
+
+```
+. bin/activate # activate
+```
+
 
 References
 ==========
