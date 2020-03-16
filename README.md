@@ -31,6 +31,9 @@ Create a virtual environmet named python3 under `{your_folder}/virtualenv`
 . bin/activate 
 ```
 
+### install stable-baselines
+`pip install stable-baselines`
+
 
 References
 ==========
