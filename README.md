@@ -16,9 +16,10 @@ Setup
 ### Preparation of Virtual Environment (VENV) and Python3
 Please refer the complete [guide](https://docs.python-guide.org/starting/installation/).
 
-Here is an example using virtualenv and default interpreter python2.7
+#### Here is an example using virtualenv and default interpreter python2.7 under Mac OSX
 
 Install python3 by homebrew, which doesn't affet system python.
+
 `brew install python3`
 
 Create a virtual environmet named python3 under `{your_folder}/virtualenv`
@@ -29,11 +30,13 @@ activate the virtual environmet
 
 `. bin/activate `
 
-install needed packages
+install needed packages under VENV
+**Note**: Stabe-Baselines supports Tensorflow versions from **1.8.0 to 1.14.0**. Support for Tensorflow 2 API is planned.
 
 ```
-pip install stable-baselines`
-
+sudo chown -R $(whoami) $(brew --prefix)/*
+brew install cmake openmpi
+pip install stable-baselines[mpi]`
 pip install tensorflow
 ```
 
